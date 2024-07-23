@@ -1,0 +1,433 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   
+
+    
+}
+.body{
+    height: 1400px;
+    background-color:#dde5eb;
+
+}
+.logo{
+    height: 50px;
+    width: 100px;
+    background:url(https://mokshfenster.com/img/Moksh_Logo_SVG.svg);
+    background-size: 100% 100%;
+    position: absolute;
+    left: 60px;
+
+}
+
+.home{
+    height: 50px;
+    background-color: #fff;
+
+}
+.list{
+ 
+    position: absolute;
+    top: 10px;
+    right: 100px;
+    background-color: #fff;
+
+}
+ul{
+    justify-content: center;
+    display: flex;
+   
+}
+ul li{
+     font-size: 25px;
+     margin-left:40px ;
+     
+}
+a{
+   text-decoration-line: none;
+   color: black;
+
+}
+a:hover{
+  color: #ff7200;
+}
+
+
+.img{
+    line-height: 440px;
+    width: 100%;
+    background-color: aqua;
+    background: url(https://talatiandpartners.com/wp-content/uploads/2022/01/TRENDS-1.webp);
+    background-size: 100% 100%;
+    animation: ranjan 4s 0s infinite alternate;
+}
+@keyframes ranjan{
+
+    33%{ background: url(https://asset.skoiy.com/9b80a6f781ff336f/a8csx84ab4fj.jpg) ; background-size: 100% 100%;}
+    60%{ background: url(https://res.cloudinary.com/dwa6fuv2x/w_2000,h_1200,c_fit/auto-mapping-folder/2020/07/Luxury-interior-design.jpg) ; background-size: 100% 100%; z-index: -1;}
+}
+.welcometo{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+
+}
+.product{
+    line-height: 100px;
+    font-size: 40px;
+    color: black;
+    
+    text-align: center;
+    
+  
+
+}
+/*  6 boxes with grid  */
+
+.boxes{
+    height: 780px;
+    width: 1150px;
+    display: grid;
+    grid-template-columns: auto auto auto   ;
+    gap: 60px;
+   margin-left: 50px;
+ 
+    
+
+}
+.boxes .a{
+    text-align: center;
+    border: 2px solid black;
+
+    border-radius: 12px;
+    box-shadow: 4px 4px 2px -2px #787a7b;
+    background-color: #fff;
+}
+/*  false celling */
+.imgfalse{
+    height: 50%;
+    width: 100%;
+    background: url(https://www.nerolac.com/sites/default/files/styles/1920x548/public/2023-04/10-fabulous-false-ceiling-room-designs-for-modern-homes.jpg.webp?itok=_4lv0xh2) no-repeat;
+    background-size: 100% 200px;
+    border-radius: 10px 10px; 
+}
+.b{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 20px;
+ 
+ }
+ .c{
+     margin-top: 10px;
+     font-size: 20px;
+     padding: 4px;
+ } 
+/* moduler  */
+.imgmoduler{
+    height: 50%;
+    width: 100%;
+    background: url(https://5.imimg.com/data5/SELLER/Default/2021/7/UB/MO/SL/29948920/u-shape-modular-kitchen.jpg) no-repeat;
+    background-size: 100% 200px;
+    border-radius: 10px;
+
+}
+ /* lightning */
+ .imglight{
+    height: 50%;
+    width: 100%;
+    background: url(https://www.hampshirelight.net/storage/uploads/case-studies/stanton-hill-kitchen/feature-1/feature_20kitchen.jpg) no-repeat;
+    background-size: 100% 200px;
+    border-radius: 10px;
+ }
+ /* wooden frollering */
+ .imgwoden{
+    height: 50%;
+    width: 100%;
+    background: url(https://5.imimg.com/data5/RE/ST/JU/SELLER-60234234/wooden-flooring.jpg) no-repeat;
+    background-size: 100% 200px;
+    border-radius: 10px;
+ }
+ /*  bathing */
+ .imgbathing{
+    height: 50%;
+    width: 100%;
+    background: url(https://5.imimg.com/data5/RE/ST/JU/SELLER-60234234/wooden-flooring.jpg) no-repeat;
+    background-size: 100% 200px;
+    border-radius: 10px;
+ }
+ /* door */
+ .imgdoor{
+    height: 50%;
+    width: 100%;
+    background: url(https://i.pinimg.com/736x/26/7b/77/267b770e5e32079f8bfc74cd5ce9c328.jpg) no-repeat;
+    background-size: 100% 200px;
+    border-radius: 10px;
+ }
+
+ /*  four box why */
+/* why chose main body */
+ .body2{
+    height: 430px;
+    width: 1263px;
+    /* background-color: antiquewhite; */
+ }
+.whychose{
+    font-size: 35px;
+    font-family: Sitka Heading;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.why{
+    height: 300px;
+    width: 1210px;
+    background-color: rgb(180, 239, 234);
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 5px;
+    margin: 40px;
+}
+.boxx1{
+        background-color: white;
+        /* border: 2px solid black; */
+        padding: 10px;
+
+}
+.expertise{
+    margin-top: 20px;
+}
+.expertise1{
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+/*  img fix */
+
+.bgimgfix{
+    height: 550px;
+    /* width: 100%; */
+    background:rgba(0, 0, 0, 0.285) url(https://www.decorilla.com/online-decorating/wp-content/uploads/2020/08/Luxury-Interior-Design-for-open-living-and-dining-by-Laura-A.jpg) fixed ;
+    background-size:  100% 100%;
+}
+.black{
+     height:250px;
+     /* border: 10px solid yellow; */
+     z-index: -1;
+     /* box-sizing: border-box; */
+     
+}
+
+.black1{
+    font-size: 40px;
+    margin-top: 40px;
+    margin-left: 100px;
+    color: white;
+
+}
+.black2{
+    font-size: 35px;
+    margin-top: 40px;
+    margin-left: 100px;
+    color: white;
+    
+}
+.white{
+    height: 500px;
+    /* width: 100%; */
+    background-color: #dde5eb;;
+    z-index: -1;
+    margin-top: 53px;
+
+}
+.custmer{
+        margin-top:100px;
+        margin-left: 70px;
+        font-size: 35px;
+        position:relative;
+        top: 40px;
+}
+.youtube{
+    height: 300px;
+    width: 1000px;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    /* background-color: #ff7200; */
+    color: black;
+    z-index: -1;
+    margin-left: 60px;
+   
+}
+
+.yname{
+    height:50px;
+    width: 1200px;
+    margin-left: 60px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    /* background-color: #ff7200; */
+    color: black;
+    z-index: -1;
+   
+    text-align: center;
+   
+}
+.yname1{
+    color: black;
+    text-align: center;
+    /* border: 4px solid black; */
+}
+.ourcustmer{
+        height: 250px;
+        background-color: #e0cf76;      
+}
+.och{
+      
+        margin-left: 60px;
+        font-size: 40px;
+        
+        padding-top: 20px;
+
+}
+.ochicon{
+    
+    height: 90px;
+    width: 600px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-left: 60px;
+    margin-top: 20px;
+    gap: 20px;
+}
+.ochicon1{
+    background: url(https://citybond.in/wp-content/themes/mih/assets/img/new-logo.png);
+    background-size: 100% 100%;
+}
+.ochicon2{
+    background: url(https://etimg.etb2bimg.com/photo/90354418.cms);
+    background-size: 100% 100%;
+}
+
+.ochicon3{
+    background: url(https://citybond.in/wp-content/themes/mih/assets/img/new-logo.png);
+    background-size: 100% 100%;
+
+}
+/* fix image  */
+.imgfix2{
+    height: 470px;
+    background: url(https://media.designcafe.com/wp-content/uploads/2023/03/14120252/mansion-interior.jpg) fixed;
+    background-size: 1005 100%;
+}
+.boxxx1{
+    height: 210px;
+   
+    /* background-color: #ff7200; */
+ 
+    
+
+}
+.boxxx2{
+    height: 70px;
+    width: 300px;
+    background-color: black;
+    /* display: inline-block; */
+    position: absolute;
+    top: 2900px;
+    left: 30px;
+    border-radius: 30px;
+    text-align: center;  
+    color: white;
+    opacity: 0.5;
+   
+
+}
+.boxxx3{
+    height: 70px;
+    width: 300px; 
+    display: inline-block;
+    position: absolute;
+    top: 2900px;
+    right: 450px;
+    border-radius: 30px;
+    text-align: center;
+    background-color: black;
+    opacity: 0.5;
+}
+.lakra1{
+    color: white;
+    opacity: 0.9;
+}
+.boxxx4{
+    height: 70px;
+    width: 300px;
+    
+    display: inline-block;
+    position: absolute;
+    top: 2900px;
+    right: 30px;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: 10px;
+    background-color: black;
+    color: #dde5eb;
+    opacity: 0.5;
+}
+.nineteen{
+    margin-top: 5px;
+}
+
+.lastdiv
+{
+    height: 300px;
+    background-color:#dde5eb; ;
+    align-items:center;
+}
+
+.mf{
+   
+   text-align: center;
+   position: relative;
+   top: 50px;
+   font-family: "Font Awesome 6 Free";
+   font-size: 60px;
+   
+  
+   
+
+}
+.lastbox{
+    height: 50px;
+    width: 250px;
+    margin-left: 500px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 90px;
+    gap:20px;
+}
+.icon1{
+    /* border: 2px solid black; */
+    background:url(https://cdn-icons-png.freepik.com/256/455/455705.png) ;
+    background-size: 100% 100%;
+    border-radius: 100px;
+   
+    /* "Font Awesome 6 Free" */
+}
+
+.icon2{
+    /* border: 2px solid black; */
+    background:url(https://cdn-icons-png.freepik.com/256/646/646135.png) ;
+    background-size: 100% 100%;
+}
+.icon3{
+    /* border: 2px solid black; */
+    background:url(https://e7.pngegg.com/pngimages/912/661/png-clipart-computer-icons-location-location-icon-map-location-icon-miscellaneous-desktop-wallpaper-thumbnail.png) ;
+    background-size: 100% 100%;
+    mix-blend-mode: color-burn;
+}
+.copy{
+    text-align: center;
+    margin-top: 50px;
+}
